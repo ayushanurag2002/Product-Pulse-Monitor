@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.drawhead {
+  display: block !important;
+  margin-bottom: 20px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.head img {
+  width: 70px;
+  border-radius: 50%;
+}

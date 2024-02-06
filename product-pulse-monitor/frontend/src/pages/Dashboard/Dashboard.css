@@ -1,0 +1,159 @@
+.paddingall {
+  padding: 10px 10px 10px 10px;
+}
+.pricetitles {
+  font-weight: 1000;
+  font-size: large;
+}
+
+.pricetitle {
+  font-weight: 600;
+  color: aliceblue;
+}
+.pricesubtitle {
+  font-size: 14px;
+  color: aliceblue;
+}
+.iconsstyle {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: aliceblue;
+}
+.iconstyle {
+  color: aliceblue;
+}
+.gradient {
+  background: rgb(53, 138, 148);
+  background: linear-gradient(
+    158deg,
+    rgb(59, 42, 117) 0%,
+    rgb(59, 56, 198) 100%
+  );
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+.gradientdark {
+  background: rgb(53, 138, 148);
+  background: linear-gradient(
+    158deg,
+    rgba(53, 138, 148, 1) 0%,
+    rgb(148, 65, 127) 100%
+  );
+
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+.gradientlight {
+  background: rgb(53, 138, 148);
+  background: linear-gradient(
+    158deg,
+    rgba(53, 138, 148, 1) 0%,
+    rgba(91, 180, 96, 1) 100%
+  );
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.disp {
+  box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
+    0px 2px 4px rgba(0, 255, 255, 0.5), 0px 4px 8px rgba(0, 255, 255, 0.5),
+    0px 8px 16px rgba(0, 255, 255, 0.5);
+  background-color: #222;
+}
+
+.charts {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
+    0px 2px 4px rgba(0, 255, 255, 0.5), 0px 4px 8px rgba(0, 255, 255, 0.5),
+    0px 8px 16px rgba(0, 255, 255, 0.5);
+  padding: 20px;
+}
+.charts div {
+  margin-top: 30px;
+  margin: auto;
+
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 2px rgba(144, 0, 255, 0.5),
+    0px 2px 4px rgba(144, 0, 255, 0.5), 0px 4px 8px rgba(144, 0, 255, 0.5),
+    0px 8px 16px rgba(144, 0, 255, 0.5);
+}
+
+.final {
+  margin-top: 60px;
+
+  padding: 20px;
+}
+
+.final h1 {
+  text-align: center;
+}
+
+.normal {
+  box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
+    0px 2px 4px rgba(0, 255, 255, 0.5), 0px 4px 8px rgba(0, 255, 255, 0.5),
+    0px 8px 16px rgba(0, 255, 255, 0.5);
+}
+
+.final-ok {
+  box-shadow: 0px 1px 2px rgba(37, 214, 10, 0.671),
+    0px 2px 4px rgba(37, 214, 10, 0.671), 0px 4px 8px rgba(37, 214, 10, 0.671),
+    0px 8px 16px rgba(37, 214, 10, 0.671);
+}
+.final-warn {
+  box-shadow: 0px 1px 2px rgba(207, 214, 10, 0.671),
+    0px 2px 4px rgba(207, 214, 10, 0.671), 0px 4px 8px rgba(207, 214, 10, 0.671),
+    0px 8px 16px rgba(207, 214, 10, 0.671);
+}
+.final-bad {
+  box-shadow: 0px 1px 2px rgba(214, 10, 10, 0.671),
+    0px 2px 4px rgba(214, 10, 10, 0.671), 0px 4px 8px rgba(214, 10, 10, 0.671),
+    0px 8px 16px rgba(214, 10, 10, 0.671);
+}
+.final-bad-hov {
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.final-bad-hov:hover {
+  box-shadow: 0px 1px 2px rgba(214, 10, 10, 0.671),
+    0px 2px 4px rgba(214, 10, 10, 0.671), 0px 4px 8px rgba(214, 10, 10, 0.671),
+    0px 8px 16px rgba(214, 10, 10, 0.671);
+}
+.final-warn-hov {
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.final-warn-hov:hover {
+  box-shadow: 0px 1px 2px rgba(207, 214, 10, 0.671),
+    0px 2px 4px rgba(207, 214, 10, 0.671), 0px 4px 8px rgba(207, 214, 10, 0.671),
+    0px 8px 16px rgba(207, 214, 10, 0.671);
+}
+.final-ok-hov {
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.final-ok-hov:hover {
+  box-shadow: 0px 1px 2px rgba(37, 214, 10, 0.671),
+    0px 2px 4px rgba(37, 214, 10, 0.671), 0px 4px 8px rgba(37, 214, 10, 0.671),
+    0px 8px 16px rgba(37, 214, 10, 0.671);
+}
+.col-bad {
+  color: rgba(255, 27, 27, 0.82);
+}
+.col-warn {
+  color: gold;
+}
+.col-ok {
+  color: rgb(56, 71, 73);
+  color: rgba(37, 214, 10, 0.671);
+}
+
+.params {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
